@@ -1,1 +1,8 @@
 <p>pricing works!</p>
+
+<div class="container ">
+   <div *ngFor="let usr of users.arr" class="card" style="width: 50%">
+       <div>{{usr.login}}</div>
+       <img src="{{usr.avatar_url}}" width=100px height=100px >
+   </div>
+</div>
